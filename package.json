@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-card",
+  "name": "cct-popup-card",
   "version": "1.1.7",
-  "description": "Lovelace boilerplate-card",
+  "description": "Lovelace cct-popup card",
   "keywords": [
     "home-assistant",
     "homeassistant",
@@ -10,12 +10,12 @@
     "lovelace",
     "custom-cards"
   ],
-  "module": "boilerplate-card.js",
-  "repository": "git@github.com:custom_cards/boilerplate-card.git",
-  "author": "Ian Richardson <iantrich@gmail.com>",
+  "module": "cct-popup-card.js",
+  "repository": "git@github.com/4very/cct-popup-card.git",
   "license": "MIT",
   "dependencies": {
     "@ctrl/tinycolor": "^3.4.0",
+    "@rollup/plugin-replace": "^3.0.1",
     "card-tools": "github:thomasloven/lovelace-card-tools",
     "custom-card-helpers": "^1.9.0",
     "lit-element": "^3.1.2",
@@ -26,8 +26,8 @@
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@babel/plugin-proposal-decorators": "^7.17.0",
     "@rollup/plugin-json": "^4.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.10.2",
-    "@typescript-eslint/parser": "^5.10.2",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
     "eslint": "^8.8.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
