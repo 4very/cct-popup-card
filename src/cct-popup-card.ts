@@ -1059,7 +1059,6 @@ class LightPopupCard extends LitElement {
               "weather",
               "fan",
               "webhook",
-              "websocket_api",
               "sensor",
               "met",
               "plex",
