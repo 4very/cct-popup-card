@@ -1,31 +1,19 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
-
 # CCT Light popup card (homekit style)
-Popup lovelace card with brightness slider and temperature slider.
 
+Popup card for lovelace that has a temperature and brightness slider to control lights.
 
-<a href="https://www.buymeacoffee.com/ZrUK14i" target="_blank"><img height="41px" width="167px" src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee"></a>
+![Alt Text](https://i.imgur.com/CD9nnLE.gif)
 
 ## Configuration
 
 ### Installation instructions
 
-**HACS installation:**
-Go to the hacs store and use the repo url `https://github.com/DBuit/light-popup-card` and add this as a custom repository under settings.
-
-Add the following to your ui-lovelace.yaml:
-```yaml
-resources:
-  url: /hacsfiles/light-popup-card/light-popup-card.js
-  type: module
-```
-
 **Manual installation:**
-Copy the .js file from the dist directory to your www directory and add the following to your ui-lovelace.yaml file:
+Copy /dist/cct-popup-card.js into /www/community/cct-popup-card inside of your Home Assistant config folder. Add the following to your configuration.yaml:
 
 ```yaml
 resources:
-  url: /local/light-popup-card.js
+  url: /local/cct-popup-card.js
   type: module
 ```
 
