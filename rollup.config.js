@@ -32,10 +32,6 @@ const plugins = [
   copy({
     targets: [
       {
-        src: "dist/cct-popup-card.js",
-        dest: "/mnt/a/www/community/cct-popup-card",
-      },
-      {
         src: "src/index.html",
         dest: "dist/",
       },
